@@ -58,3 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+JumpKing/Library/
+JumpKing/[Tt]emp/
+JumpKing/[Oo]bj/
+JumpKing/[Bb]uild/
+JumpKing/[Bb]uilds/
+JumpKing/[Ll]ogs/
+JumpKing/[Mm]emoryCaptures/
