@@ -59,8 +59,13 @@ public class Controller : MonoBehaviour
 
         if (Input.GetKeyUp("space"))
         {
-            Rb.velocity = new Vector2(moveSpeed * moveSpeed, jumpHeight);
-            jumpHeight = 0;
+            if (isGrounded)
+            {
+                Rb.velocity = new Vector2(moveSpeed * moveSpeed, jumpHeight);
+                jumpHeight = 0;
+            }
+            
+            canJump = true;
         }
 
     }
